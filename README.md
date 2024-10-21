@@ -2,6 +2,8 @@
 
 This Python script, `bsd.py`, allows you to benchmark various Stable Diffusion models for generating images using GPU or CPU, with customizable options for precision, image resolution, and prompt inputs. It also logs system resource utilization (GPU, CPU, memory) during the image generation process.
 
+![Demo of Script](https://github.com/JoseVegaPro/StableDiffusion-Benchmark-Script/blob/main/bsd.gif?raw=true)
+
 ## Features
 
 - Select from multiple Stable Diffusion models, including:
