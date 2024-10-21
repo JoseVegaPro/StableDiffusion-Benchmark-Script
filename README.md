@@ -28,11 +28,12 @@ This Python script, `bsd.py`, allows you to benchmark various Stable Diffusion m
   - `bitsandbytes` (for 8-bit quantization)
   - `concurrent.futures`
   
+> [!CAUTION]
+> This script disables the safety checker by default. Use responsibly.
+> The number of inference steps should not exceed 1000.
+
 You can install the dependencies by running:
 
 ```bash
 pip install torch diffusers psutil pynvml bitsandbytes
 
-> [!CAUTION]
-> This script disables the safety checker by default. Use responsibly.
-> The number of inference steps should not exceed 1000.
