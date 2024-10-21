@@ -32,3 +32,7 @@ You can install the dependencies by running:
 
 ```bash
 pip install torch diffusers psutil pynvml bitsandbytes
+
+> [!CAUTION]
+> This script disables the safety checker by default. Use responsibly.
+> The number of inference steps should not exceed 1000.
