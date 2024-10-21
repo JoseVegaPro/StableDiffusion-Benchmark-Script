@@ -37,12 +37,15 @@ You can install the dependencies by running:
 ```bash
 pip install torch diffusers psutil pynvml bitsandbytes
 ```
-
+## Usage
+```
+git clone https://github.com/JoseVegaPro/StableDiffusion-Benchmark-Script
+cd StableDiffusion-Benchmark-Script
+```
 ## Create a virtual environment
 ```
 python3 -m venv venv
 ```
-
 ## Activate the virtual environment
 ```
 source venv/bin/activate 
