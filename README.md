@@ -36,4 +36,18 @@ You can install the dependencies by running:
 
 ```bash
 pip install torch diffusers psutil pynvml bitsandbytes
+```
 
+## Create a virtual environment
+```
+python3 -m venv venv
+```
+
+## Activate the virtual environment
+```
+source venv/bin/activate 
+```
+## RUN RUN RUN
+```
+python bsd.py
+```
